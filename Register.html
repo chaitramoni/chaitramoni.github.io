@@ -4,16 +4,22 @@
         <tiltl>Register</tiltl>
     </head>
     <body> 
-        <form>
+        <form><!---text,email,password,number,file,radio-->
             <div>
                 <lable>Enter First Name</lable>
-                <input type = "text" name = "firstname" placeholder = "Enter First name">
+                <input type = "text" name = "firstname" placeholder = "Enter First name" required minlength="2" maxlength="12" autocomplete="off">
 
             </div>
             <br>
             <div>
                 <lable>Enter Last Name</lable>
                 <input type = "text" name = "Lastname" placeholder = "Enter Last name">
+            </div>
+
+            <!----Age-->
+            <div>
+                <label>Enter Age</label>
+                <input type = "Number" name = "age"  min = "15" max="25">
             </div>
             <br>
             <div>
@@ -24,14 +30,14 @@
             <br>
              <div>
                 <lable>Enter Password</lable>
-                <input type = "password" name = "password" placeholder = "Enter password">
+                <input type = "password" name = "password"placeholder = "Enter password" minlength = "7" maxlength="18"  >
             </div>
             <br>
             <div>
                 <label>Select Gender</label>
                 <input type = "radio" name = "gender">Male
                 <input type = "radio" name = "gender">Female
-                <input type = "radio" name = "gender">Orthers
+                <input type = "radio" name = "gender" checked>Orthers
             </div>
             <br>
             <div>
@@ -42,6 +48,40 @@
                     <option>Mangalore</option>
                 </select>
             </div>
+            <div>
+                <label>Select DateOfBirth</label>
+                <input type = "date" name = "dateOfBirth">
+
+            </div>
+            <div>
+                <label>MobileNumber</label>
+                <input type = "tel" name = "MobileNumber" placeholder = "+91 9108319801" min = "0" max = "10">
+
+            </div>
+            <div>
+                <label>Enter Address</label>
+                <textarea rows = "5" cols = "10"></textarea>
+            </div>
+
+            <!---Naukri Website-->
+            <div>
+                <label>Select File/Resume</label>
+                <input type = "file" name = "Upload">
+            </div>
+            <div>
+            <!---input type submit-->               <!---<button type = "submit">Submit</button-->
+                <button type = "submit">Submit</button>
+                <button type = "reset">Button</button>
+            </div>
+
+            <div>
+                <label>Select Course</label>
+                <input type = "checkbox"disabled>java
+                <input type = "checkbox">python
+                <input type = "checkbox">dotnet
+            </div>
+            <!---how to turn off auto suggestion in html files-->
+
         </form>
     </body>
 </html>
