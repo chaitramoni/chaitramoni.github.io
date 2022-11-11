@@ -1,0 +1,22 @@
+
+
+
+h1,h2 {
+    color: brown;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.fun{
+
+    color: blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+#fruit
+{
+    color: orange;
+}
+

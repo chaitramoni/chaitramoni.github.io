@@ -1,0 +1,62 @@
+.box{
+    /*padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;*/
+
+    padding:10px 20px 30px 40px;
+
+    border: 2px dotted cornflowerblue;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+
+.rectangle{
+    border: 2px solid cornflowerblue;
+    height: 100px;
+    width: 200px;
+}
+
+
+.rectangle1{
+    border: 3px solid cornflowerblue;
+    height: 70px;
+    width: 300px;
+    
+    
+}
+
+.rectangle2{
+    border: 2px solid coral;
+    height: 40px;
+    width: 180px;
+    margin: 15px;
+}
+/*side bye side */
+.rectangle3{
+    border: 2px solid cornflowerblue;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+.rectangle4{
+    border: 2px solid black ;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+body{
+    background-image:url('C:\\Users\\user\\Downloads\\kannadarajostava.jpg');
+    height: 500px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
