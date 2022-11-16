@@ -1,0 +1,44 @@
+
+
+
+
+.email{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+img{
+    float: right;
+    height: 150px;
+    width:  150px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hra{
+    border:solid black;
+}
+ul{
+    list-style-type: square;
+    margin: 10px;
+}
+
+
+.absolute{
+    right: 200px;
+    top: 1830px;
+    position: absolute;
+}
+form{
+    background-color:palegreen;
+    border: solid brown;
+    margin: 90px;
+    padding: 90px;
+    width: 800px;
+}

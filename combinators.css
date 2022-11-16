@@ -1,0 +1,101 @@
+div p{/*decedant*/
+    color: green;
+}
+
+/*child*/
+
+div > p{
+color: red;
+}
+
+/*adjacent sibiling selector*/
+div + p{
+    color: blue;
+}
+
+/*General sibiling*/
+div ~ p{
+    /*color: rgb(10, 250, 50)*/
+    color: #1e246a;
+    /*Color proprty*/
+}
+
+
+/*position*/
+.static{
+    position: static;
+    left: 100px;
+}
+
+.relative{
+     top:-240px;
+     right: -300px;
+    position: relative;
+}
+
+.absolute{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.topleft{
+    top: 0;
+    color: red;
+    left: 0px;
+    position: absolute;
+}
+.imageparent{
+    position: relative;
+}
+
+/*.imagecircle{
+    border-radius: 15%;
+}
+body{
+    margin: 0;
+}*/
+.topright{
+    bottom: 550px;
+    color: red;
+    left: 0px;
+    position: absolute;
+}
+.imagechild{
+    position: relative;
+}
+.fixed{
+    bottom: 0;
+    position: fixed;
+    background-color: chartreuse;
+}
+
+
+
+.sticky{
+    top: 0;
+    position: sticky;
+    background-color: red;
+}
+ul{
+    list-style-type: none;
+    color: antiquewhite;
+    background-color: chocolate;
+}
+
+li{
+    padding: 3px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
