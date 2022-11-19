@@ -77,6 +77,7 @@ body{
     position: sticky;
     background-color: red;
 }
+/*---navigation bar*/
 ul{
     list-style-type: none;
     color: antiquewhite;
@@ -84,8 +85,9 @@ ul{
 }
 
 li{
-    padding: 3px;
-    margin: 0;
+    padding: 3px;/*vertical*/
+    margin: 0;/*vertical*/
+    display: inline-block;/*Horizontal*/
 }
 
 

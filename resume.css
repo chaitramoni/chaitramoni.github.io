@@ -42,3 +42,14 @@ form{
     padding: 90px;
     width: 800px;
 }
+
+body{
+    background-color: blueviolet;
+}
+
+@media screen and (min-width:480px)
+{
+    body{
+        background-color: chocolate;
+    }
+}

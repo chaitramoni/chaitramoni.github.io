@@ -1,0 +1,27 @@
+.a{
+    font-size: larger;
+    margin-left: 45%;
+}
+.head{
+    margin-left: 40%;
+}
+
+.para{
+    margin-left: 34%;
+}
+
+.clr{
+    background-color: aqua;
+}
+
+.explore{
+    margin-left: 10%;
+}
+img{
+    margin-left: 10%;
+    position: relative;
+    float: inline-start;
+    height: 300px;
+    width: 900px;
+
+}
