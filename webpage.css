@@ -25,3 +25,24 @@ img{
     width: 900px;
 
 }
+
+
+.featured{
+    margin-left: 37%;
+}
+
+.tibet, .java, .explore, .kenya{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 17%;
+}
+.para{
+    font-size: medium;
+}
+
+
+.form{
+    background-color: aqua;
+    margin-left: 30%;
+    position: absolute;
+}
