@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function displaydata(){
+            console.log("calling display")
+            let message = document.getElementById("message")
+            console.log(message)
+            message.innerHTML = "calling displayData"
+            message.style.color = "green"
+
+        }
+
+        function details(){
+            console.log("calling display")
+            let message = document.getElementById("name")
+            console.log(name)
+            console.log(name.value)
+            let details = document.getElementById("details")
+            detail.innerHTML = name.value
+        }
+
+        function addition(){
+            console.log("calling addition")
+           
+             let num1 = document.getElementById("num1")
+            
+            let num2 = document.getElementById("num2")
+    
+        
+            
+            let result = parseInt(num1.value) + parseInt(num2.value)
+             console.log(result)
+
+            let additionMessage = document.getElementById("additionMessage")
+            additionMessage.innerHTML = result
+            additionMessage.style.color = "green"
+
+        }
+
+        function sub(){
+            console.log("calling sub")
+           
+             let num1 = document.getElementById("num1")
+            
+            let num2 = document.getElementById("num2")
+    
+        
+            
+            let result = parseInt(num1.value) - parseInt(num2.value)
+             console.log(result)
+
+             let subMessage = document.getElementById("subMessage")
+            subMessage.innerHTML = result
+            subMessage.style.color = "green"
+        }
+
+
+        function multiply(){
+            console.log("calling multiply")
+           
+             let num1 = document.getElementById("num1")
+            
+            let num2 = document.getElementById("num2")
+    
+        
+            
+            let result = parseInt(num1.value) * parseInt(num2.value)
+             console.log(result)
+
+             let multiplyMessage = document.getElementById("multiplyMessage")
+            multiplyMessage.innerHTML = result
+            multiplyMessage.style.color = "green"
+        }
+
+        function div(){
+            console.log("calling div")
+           
+             let num1 = document.getElementById("num1")
+            
+            let num2 = document.getElementById("num2")
+    
+        
+            
+            let result = parseInt(num1.value) % parseInt(num2.value)
+             console.log(result)
+
+             let divMessage = document.getElementById("divMessage")
+            divMessage.innerHTML = result
+            divMessage.style.color = "green"
+        }
+
+    </script>
+</head>
+<body>
+    <div id = "message"></div>
+    <button onclick="displaydata()"> click me </button>
+    <h1>India</h1>
+
+     <!-- <button onclick="displayData()">Player1</button>
+    <h4 style="color: green;">ViratKohli</h4>
+    <br>
+
+     <button onclick="displayData()">Player2</button>
+    <h4 style="color: green;">RohitSharma</h4>
+    <br>
+
+     <button onclick="displayData()">Player3</button>
+    <h4 style="color: green;">sachinTendulkar</h4>
+    <br>
+
+    <button onclick="displayData()">Player4</button>
+    <h4 style="color: green;">Dhoni</h4>
+    <br> -->
+
+    <form>
+        <div>
+            <label>Enter Number 1</label>
+            <input type = "text" id = "num1">
+        </div>
+
+            <div>
+            <label>Enter Number 2</label>
+            <input type = "text" id = "num2">
+             </div>
+        
+    <button type="button" onclick = "addition()">Addition</button>
+    <div id = "additionMessage"></div>
+<br>
+    <button type="button" onclick = "sub()">sub</button>
+    <div id = "subMessage"></div>
+    <br>
+    <button type="button" onclick = "multiply()">multiply</button>
+    <div id = "multiplyMessage"></div>
+    <br>
+    <button type="button" onclick = "div()">div</button>
+    <div id = "divMessage"></div>
+
+    
+
+</form>
+
+
+
+
+</body>
+</html>

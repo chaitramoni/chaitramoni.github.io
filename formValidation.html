@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function validation(){
+            console.log("calling validation")
+            let firstName = document.getElementById("firstName")
+            console.log(firstName.value)
+            console.log(firstName.value.length)
+
+            if(firstName.value == "")
+            {
+         console.log("Please enter firstname")
+         let message = document.getElementById("firstNameMessage")
+         message.innerHTML = "Please enter firstName"
+         message.style.color = 'red'
+            }
+
+             if(firstName.value.length == "0")
+            {
+             console.log("Please enter firstname")
+              }
+
+              if(firstName.value == "")
+            {
+         console.log("Please enter password")
+         let message = document.getElementById("password")
+         message.innerHTML = "Please enter password"
+         message.style.color = 'red'
+            }
+
+             if(firstName.value.length == "0")
+            {
+             console.log("Please enter password")
+              }
+            }
+    </script>
+</head>
+<body>
+    <form>
+        <div>
+            <div id="firstNameMessage"></div>
+            <label>Enter firstName</label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <button type="button" onclick="validation()">Register</button>
+
+        <div>
+            <div id="password"></div>
+            <label>Enter password</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <button type="button" onclick="validation()">Register</button>
+    </form>
+
+    <!-- when user click on button an event will be generated 
+    types Of Events
+     -->
+</body>
+</html>
